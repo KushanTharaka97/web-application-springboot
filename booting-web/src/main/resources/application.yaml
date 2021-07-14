@@ -1,0 +1,13 @@
+spring:
+  profiles: dev
+server:
+  port: 8000
+---
+spring:
+  profiles: test
+  thymeleaf:
+    enabled: true
+    server:
+     port: 9000
+
+
